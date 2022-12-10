@@ -1,0 +1,375 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+  font-family: 'PT Serif', serif;
+
+  font-family: 'Roboto', sans-serif;
+}
+.heroimg{
+
+
+    background-image: url(https://i.ibb.co/M1nwb7m/p13.jpg);
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.heroimg img{
+    position: relative;
+    top: 25px;
+    left:400px ;
+    
+}
+.heroimg ul {
+    text-align: center;
+}
+.heroimg ul li {
+    display: inline-block;
+    
+}
+.heroimg ul li a {
+    text-decoration: none;
+    /* padding: 0px 20px; */
+    margin: 0px 20px;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 0; 
+    left: 165px;
+}
+.heroimg ul li a:hover{
+    color: orangered;
+
+}
+.heroimg p{
+    text-align: center;
+    line-height: 600px;
+    color: white;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    position: relative;
+}
+.heroimg p::before {
+    content: "\f10d";
+    font-family: Fontawesome ;
+    /* height: 5px;
+    width: 5px; */
+    position: absolute;
+    top: -4%;
+    left: 27%;
+    color: orangered;
+  }
+  .heroimg p::after {
+    content: "\f10e";
+    font-family: Fontawesome ;
+    /* height: 5px;
+    width: 5px; */
+    position: absolute;
+    top: -4%;
+    right: 27%;
+    color: orangered;
+  }
+
+
+.aboutdiv{
+    position: relative;
+    height: 350px;
+}
+
+  .aboutimg img{
+    width: 180px;
+    box-shadow: 0px 0px 5px gray;
+    position: absolute;
+    top:120px ;
+    left:25% ;
+  }
+  .aboutimg h1 {
+    position: absolute;
+    top: 50px;
+    left:50% ;
+  }
+
+  .aboutimg p{
+    width: 700px;
+    position: absolute;
+    top: 100px;
+    left: 40%;
+    
+  }
+
+  .service{
+    height: 380px;
+    background:#2e3e4e ;
+    text-align: center;
+  }
+  .service h2{
+    color: orangered;
+    padding:20px 0px
+  }
+  .service1{
+    text-align: center;
+    width: 250px;
+    display: inline-block;
+    margin-top: 40px;
+  }
+
+.service1 p {
+    line-height: 25px;
+    color: white;
+    
+}
+.service1 h3{
+    color: #fff;
+    font-style: italic;
+    margin: 20px 0px;
+}
+.service1 span{
+    background: orangered;
+    padding: 10px;
+    text-align: center;
+    border-radius: 0px 17px;
+    color: white;
+}
+
+  .service1 p::before{
+    content: "\f560";
+    font-family: Fontawesome;
+    color: orangered;
+  }
+  .service1 a{
+    background: orangered;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin-top: 10px;
+    position: relative;
+    z-index: 1;
+    border-radius: 5px;
+}
+.service1 a::before{
+  content: "";
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: orange;
+  color: black;
+  border-radius: ;
+  transition: .5s;
+  z-index: -1;
+  border-radius: 5px;
+} 
+.service1 a:hover::before{
+  width:100%;
+  
+}
+  .service2{
+    text-align: center;
+    width: 250px;
+    display: inline-block;
+    margin-top: 40px;
+  }
+
+.service2 p {
+    line-height: 25px;
+    color: white;
+    
+}
+.service2 h3{
+    color: #fff;
+    font-style: italic;
+    margin: 20px 0px;
+}
+.service2 span{
+    background: orangered;
+    padding: 10px;
+    text-align: center;
+    border-radius: 0px 17px;
+    color: white;
+}
+
+  .service2 p::before{
+    content: "\f560";
+    font-family: Fontawesome;
+    color: orangered;
+  }
+  .service2 a{
+    background: orangered;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin-top: 10px;
+    position: relative;
+    z-index: 1;
+    border-radius: 5px;
+}
+.service2 a::before{
+  content: "";
+  width: 100%;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: orange;
+  color: black;
+  border-radius: ;
+  transition: .5s;
+  z-index: -1;
+  border-radius: 5px;
+} 
+.service2 a:hover::before{
+  height:100%;
+  
+}
+.service3{
+  text-align: center;
+  width: 250px;
+  display: inline-block;
+  margin-top: 40px;
+}
+
+.service3 p {
+  line-height: 25px;
+  color: white;
+  
+}
+.service3 h3{
+  color: #fff;
+  font-style: italic;
+  margin: 20px 0px;
+}
+.service3 span{
+  background: orangered;
+  padding: 10px;
+  text-align: center;
+  border-radius: 0px 17px;
+  color: white;
+}
+
+.service3 p::before{
+  content: "\f560";
+  font-family: Fontawesome;
+  color: orangered;
+}
+.service3 a{
+  background: orangered;
+  padding: 10px;
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  margin-top: 10px;
+  position: relative;
+  z-index: 1;
+  border-radius: 5px;
+}
+.service3 a::before{
+  content: "";
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: orange;
+  color: black;
+  border-radius: ;
+  transition: .5s;
+  z-index: -1;
+  border-radius: 5px;
+} 
+.service3 a:hover::before{
+  width:100%;
+}
+
+input[type=text],[type=email], [type=Number] {
+  width: 300px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: none;
+    border-bottom: 3px solid #ef664d;
+    outline: none;
+}
+.contact{
+  text-align: center;
+  height: 300px;
+ 
+}
+.contactfrom{
+  margin-top: 100px ;
+  
+
+}
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/* input[type=submit] ::before{
+  content: "";
+  position: absolute;
+} */
+.contactfrom .submit {
+  background: green;
+  color: white;
+  padding: 14px 145px;
+  margin-top: 10px;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  position: relative;
+  z-index: 1;
+}
+.contactfrom .submit::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background: rgb(27, 113, 224);
+  z-index: -1;
+  transition: all .5s;
+}
+.contactfrom .submit:hover::before{
+  width: 50%;
+}
+.contactfrom .submit:hover::after{
+  width: 52%;
+}
+.contactfrom .submit::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0%;
+  height: 100%;
+  background: rgb(27, 113, 224);
+  z-index: -1;
+  transition: all .5s;
+}
+.fotter{
+  background: #2e3e4e;
+  text-align: center;
+  padding: 30px;
+}
+.fottericon{
+  color: white;
+}
+.fottericon span{
+  color: red;
+}
